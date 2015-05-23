@@ -70,12 +70,12 @@ if ($loginok) {
         echo'alert("Senha incorreta");';
         echo'alert("Mentira");';
         echo'alert("Conseguiu...");';
-        echo'location.href = "../pfslc.html"';
+        echo'location.href = "LINK"';
     echo'</script>';
 } else {
     echo'<script language = "JavaScript">';
             echo'alert("Senha incorreta");';
-            echo'location.href = "../DIFICIL.html"';
+            echo'location.href = "LINK"';
     echo'</script>';
 }
 ?>
