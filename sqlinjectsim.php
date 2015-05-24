@@ -40,6 +40,7 @@ if (!$loginok) {
     } else if (count($usersplit) % 2 == 0) { // Should have odd number of sections, otherwise there is a problem
         $result = 'SQL error - invalid query';
     } else {
+        //TODO add more queries
         $conn = strtolower(trim($usersplit[1]));
         if ($conn != 'or' && $conn != 'and') {
             $result = 'SQL error - invalid query';
